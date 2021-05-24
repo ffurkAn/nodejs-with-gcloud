@@ -1,0 +1,12 @@
+# Node.js dependencies:
+node_modules/
+
+.idea/**
+
+package-lock.json
+
+#.env
+
+codeway-key.json
+
+.DS_Storegit

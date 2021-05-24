@@ -1,0 +1,28 @@
+{
+  "name": "codeway-backend-service",
+  "version": "1.0.0",
+  "description": "Codeway Code Case",
+  "main": "index.js",
+  "scripts": {
+    "test": "NODE_ENV=test GOOGLE_APPLICATION_CREDENTIALS=./codeway-key.json node server.js",
+    "start": "NODE_ENV=prod node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ffurkAn/nodejs-with-gcloud.git"
+  },
+  "author": "ffurkan.tanriverdi@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ffurkAn/nodejs-with-gcloud/issues"
+  },
+  "homepage": "https://github.com/ffurkAn/nodejs-with-gcloud#readme",
+  "dependencies": {
+    "@google-cloud/bigquery": "^5.5.0",
+    "@google-cloud/pubsub": "^2.11.0",
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "underscore": "^1.13.1"
+  }
+}
